@@ -26,3 +26,12 @@ ninja -C out/Default
 ```cmake
 set(LIBWEBRTC_DIR ${CMAKE_SOURCE_DIR}/../webrtc-checkout)
 ```
+
+## Compile Application
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
